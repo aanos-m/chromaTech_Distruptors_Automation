@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="65.401651">
+    <testcase classname="This feature file contains Student Admission Test Scearios" name="Student Admission" time="22.2902">
+        <system-out><![CDATA[Given a CTSMS user is on the home page "https://mexil.it/chroma_tech_academy/test/site/login".passed
+When the user logs in with valid credentials username "general@teacher.com" and password "123456".passed
+And navigates to Student Information module.................................passed
+And navigates to Student Admission submodule................................passed
+And enters student admission number "5614654"...............................passed
+And selects Class "SDET" and Section "Java 11 for Cool People"..............passed
+And enters first name "Chroma" and last name "Tech".........................passed
+And selects gender "Male"...................................................passed
+And enters Date of Birth "04/01/1990".......................................passed
+And enters email address "chroma@test.com"..................................passed
+And enters mobile number "7036875816".......................................passed
+And enters father name "CHROMA FATHER"......................................passed
+And enters father phone number "703-687-5816"...............................passed
+And enters father occupation "Software Engineer"............................passed
+And enters mother name "CHROMA MOTHER"......................................passed
+And enters mother phone number "703-687-5816"...............................passed
+And enters mother occupation "Project Manager"..............................passed
+And clicks on Father radio button...........................................passed
+Then student is succesfully admitted........................................passed
+Then student record is succesfully deleted with class "SDET" and section "Java 11 for Cool People" and admission number "5614654".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="This feature file contains Student Admission Test Scearios" name="Student Admission 2" time="22.605795">
+        <system-out><![CDATA[Given a CTSMS user is on the home page "https://mexil.it/chroma_tech_academy/test/site/login".passed
+When the user logs in with valid credentials username "general@teacher.com" and password "123456".passed
+And navigates to Student Information module.................................passed
+And navigates to Student Admission submodule................................passed
+And enters student admission number "5614654"...............................passed
+And selects Class "SDET" and Section "Java 11 for Cool People"..............passed
+And enters first name "Alex" and last name "Ott"............................passed
+And selects gender "Male"...................................................passed
+And enters Date of Birth "01/01/1989".......................................passed
+And enters email address "alex@test.com"....................................passed
+And enters mobile number "7036875816".......................................passed
+And enters father name "CHROMA FATHER"......................................passed
+And enters father phone number "703-687-5816"...............................passed
+And enters father occupation "Software Engineer"............................passed
+And enters mother name "CHROMA MOTHER"......................................passed
+And enters mother phone number "703-687-5816"...............................passed
+And enters mother occupation "Project Manager"..............................passed
+And clicks on Father radio button...........................................passed
+Then student is succesfully admitted........................................passed
+Then student record is succesfully deleted with class "SDET" and section "Java 11 for Cool People" and admission number "5614654".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="This feature file contains Student Admission Test Scearios" name="Student Admission 3" time="20.505656">
+        <system-out><![CDATA[Given a CTSMS user is on the home page "https://mexil.it/chroma_tech_academy/dev/site/login".passed
+When the user logs in with valid credentials username "general@teacher.com" and password "123456".passed
+And navigates to Student Information module.................................passed
+And navigates to Student Admission submodule................................passed
+And enters student admission number "8989898"...............................passed
+And selects Class "Cyber Security" and Section "Networking Fundamentals"....passed
+And enters first name "Aanos" and last name "Mahmood".......................passed
+And selects gender "Male"...................................................passed
+And enters Date of Birth "09/25/2001".......................................passed
+And enters email address "aanos.mahmood@chromatechacademy.com"..............passed
+And enters mobile number "123456789"........................................passed
+And enters father name "CHROME FATHER"......................................passed
+And enters father phone number "703-687-5816"...............................passed
+And enters father occupation "Software Engineer"............................passed
+And enters mother name "CHROMA MOTHER"......................................passed
+And enters mother phone number "703-687-5816"...............................passed
+And enters mother occupation "Project Manager"..............................passed
+And clicks on Father radio button...........................................passed
+Then student is succesfully admitted........................................passed
+Then student record is succesfully deleted with class "Cyber Security" and section "Networking Fundamentals" and admission number "8989898".passed
+]]></system-out>
+    </testcase>
+</testsuite>
